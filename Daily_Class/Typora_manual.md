@@ -1,4 +1,4 @@
-markdown
+# Markdown
 
 문법이 직관적이고 쉬움
 
@@ -80,7 +80,7 @@ lucky = random.sample(numbers,6)
 
 ## 이미지
 
-![image-20220715104620722](markdown.assets/image-20220715104620722.png)
+![image-20220715104620722](./images/Cat.png)
 
 
 
