@@ -80,7 +80,7 @@ lucky = random.sample(numbers,6)
 
 ## 이미지
 
-![Cat](/images/Typora_manual.assets/Cat.PNG)
+![Cat](./Typora_manual.assets/Cat.PNG)
 
 - **절대경로**: 해당 컴퓨터가 지정한 곳(유연성 부족, 공유가 힘들다)
   - C:/users/ssafy/markdown.md(C:~/ 부분은 윈도우의 절대경로)
