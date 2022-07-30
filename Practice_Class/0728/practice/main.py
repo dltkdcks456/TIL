@@ -9,6 +9,10 @@ while True:
     n = int(input('생성할 로또 줄 개수를 입력하세요.(1줄에서 5줄까지 생성 가능) : '))
     if n < 1 or n > 5:
         print('1줄에서 5줄까지만 생성 가능합니다. 다시 입력하세요.')
+<<<<<<< HEAD
+=======
+        continue
+>>>>>>> 3122dfea671cc94038505f5ec7ef9814bfce4374
     else:
         break
 
