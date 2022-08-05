@@ -1,0 +1,32 @@
+.bg_color {
+    background-color:rgb(236, 234, 234)
+}
+
+.box {
+    width:350px;
+    height:396px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(192, 189, 189);
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.box1 {
+    width:350px;
+    height:63px;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(192, 189, 189);
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.box2 {
+    display: flex;
+    width:350px;
+    margin-top: 1rem;
+    justify-content: center;
+    margin-top: 0px;
+    border-radius: 0.5rem;
+}

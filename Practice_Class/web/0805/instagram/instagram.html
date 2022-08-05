@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="insta.css">
+    <title>Instagram_Exercise</title>
+</head>
+<body class="bg_color">
+    <section style="height: 850px;" class="d-flex justify-content-center align-items-center ">
+        <!-- 사진 나열 -->
+        <div >
+            <div style="width: 270px;" id="carouselExampleSlidesOnly" class="carousel slide mx-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="image/fdfe239b7c9f.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/a4fd825e3d49.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/94edb770accf.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/4d62acb667fb.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!-- 로그인 박스 -->
+        <div class="d-flex flex-column ">
+          <box class="box d-flex flex-column align-items-center justify-content-center">
+              <img src="image/7a252de00b20.png" alt="" class="mb-3">
+              <div class="mb-3">
+                <input style="width:280px;" type="email" class="form-control" id="exampleFormControlInput1" placeholder="전화번호, 사용자 이름 또는 이메일">
+              </div>
+              <div class="mb-3">
+                  <input style="width:280px;"  type="password" class="form-control" id="exampleFormControlInput1" placeholder="비밀번호">
+              </div>
+              <button stype="button" class="btn btn-primary disabled ">로그인</button>
+              <div class="row mt-2">
+                  <img src="image/line.PNG" alt="" class="col">
+                  <div class="col text-center fw-bold text-grey">또는</div>
+                  <img src="image/line.PNG" alt="" class="col">
+              </div>
+              <div>
+                  <a href="https://www.facebook.com/"><img src="image/캡처.PNG" alt=""></a>
+              </div>
+              <a style="font-size: small;" href="#" class="text-decoration-none text-black mt-2">비밀번호를 잊으셨나요?</a>
+          </box>
+  
+          <box  class="box1 d-flex justify-content-center align-items-center">
+            <p  class="mb-0 mx-2">계정이 없으신가요?</p>
+            <a href="#"  class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">가입하기</a>
+          </box>
+          <p class="text-center">앱을 다운로드하세요.</p>
+          <div class="box2">
+            <a href="#"><img src="image/4a5c9d62d51b.png" alt="" width="150px"></a>
+            <a href="#"><img src="image/f155b664a93b.png" alt="" width="150px"></a>
+          </div>
+         
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">하기 사항을 입력하십시오.</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-0.5">
+                      <label for="username" class="col-form-label">ID</label>
+                      <input type="text" class="form-control" id="username" placeholder="ex) sangchan_lee">
+                    </div>
+                    <div class="mb-0.5">
+                      <label for="recipient-name" class="col-form-label">비밀번호</label>
+                      <input type="password" class="form-control" placeholder="*******" id="recipient-name">
+                    </div>
+                    <div class="mb-0.5">
+                      <label for="recipient-name" class="col-form-label">주소</label>
+                      <input type="text" class="form-control" placeholder="부산시 북구 덕천로" id="recipient-name">
+                    </div>
+                  </form>
+                </div>
+                <div class="d-flex justify-content-between modal-footer">
+                  <div class="form-check mb-4">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                    <label class="form-check-label" for="flexCheckDefault" >
+                      개인정보 수집에 동의합니다.
+                    </label>
+                  </div>
+                  <div>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
+                    <button type="button" class="btn btn-primary">가입하기</button>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <footer class="fixed-bottom mb-5 ">
+        <div class="mb-2">
+          <div class="d-flex flex-wrap justify-content-center">
+            <a href="#" class="me-2 text-decoration-none text-secondary">Meta</a>
+            <a href="#" class="me-2 text-decoration-none text-secondary">소개</a>
+            <a href="#" class="me-2 text-decoration-none text-secondary">블로그</a>
+            <a href="#" class="me-2 text-decoration-none text-secondary">채용 정보</a>
+            <a href="#" class="me-2 text-decoration-none text-secondary">도움말</a>
+            <a href="#" class="me-2 text-decoration-none text-secondary">API</a>
+            <a href="#" class="me-2 text-decoration-none text-secondary">개인정보처리방침</a>
+            <a href="#" class="me-2 text-decoration-none text-secondary">약관</a>
+            <a href="#" class="me-2 text-decoration-none text-secondary">인기 계정</a>
+            <a href="#" class="me-2 text-decoration-none text-secondary">해시태그</a>
+            <a href="#" class="me-2 text-decoration-none text-secondary">위치</a>
+            <a href="#" class="me-2 text-decoration-none text-secondary">Instagram Lite</a>
+            <a href="#" class="me-2 text-decoration-none text-secondary">연락처 업로드 & 비사용자</a>
+          </div>
+          <div class="d-flex flex-wrap flex-wrap justify-content-center">
+            <a href="#" class="me-2 text-decoration-none text-secondary">댄스</a>
+            <a href="#" class="me-2 text-decoration-none text-secondary">식음료</a>
+            <a href="#" class="me-2 text-decoration-none text-secondary">집 및 정원</a>
+            <a href="#" class="me-2 text-decoration-none text-secondary">음악</a>
+            <a href="#" class="me-2 text-decoration-none text-secondary">시각 예술</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center fixed-bottom mb-2">
+          <select style="width: 100px; background-color: rgb(236, 234, 234); border: none;" class="form-select" aria-label="Default select example">
+            <option selected>한국어</option>
+            <option value="1">일본어</option>
+            <option value="2">English</option>
+            <option value="3">Spanish</option>
+          </select>
+          
+          <div>
+              <p class="m-0">© 2022 Instagram from Meta</p>
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
