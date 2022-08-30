@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <p>{{pick}}은 {{pick|length}}글자</p>
+    <p>{{foods|join:' 위에 '}}</p>
+    <ol>
+      {% for food in foods %}
+        <li>{{food}}</li>
+      {% endfor %}
+    </ol>
+    <a href="/index/">뒤로</a>
+{% endblock content %}
