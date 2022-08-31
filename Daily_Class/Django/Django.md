@@ -124,9 +124,9 @@
 
 1. 가상환경 생성 및 활성화
 2. Django 설치
-3. Project 생성 (setting.py와 urls.py를 주로 사용)
+3. Project 생성 (setting.py와 urls.py를 주로 사용) (django-admin startproject name .)
 4. Python manage.py runserever - 로켓확인
-5. App 생성
+5. App 생성(python manage.py startapp name)
 6. App 등록(settings에서 등록한다)
 
 ## DTL(Django Template Language)
