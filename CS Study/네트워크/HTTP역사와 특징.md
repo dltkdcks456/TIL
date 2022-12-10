@@ -15,7 +15,7 @@
 
 - TCP: HTTP/1.1, HTTP/2
 - UDP: HTTP3
-- 현재 HTTP/1.1 wnfh tkdyd
+- 현재 HTTP/1.1 주로 사용
   - HTTP/2, HTTP/3도 점점 증가
 
 
