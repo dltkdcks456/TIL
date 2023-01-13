@@ -5,8 +5,6 @@
   - 간트 차트로 보임
   - `Export`로 이미지 뽑아낼 수 있음.
 
-![image-20230110204834883](C:\Users\SSAFY_SangChan\AppData\Roaming\Typora\typora-user-images\image-20230110204834883.png)
-
 - 시간은 에픽에 대해서 설정할 수 있고 하위 항목에서는 설정이 불가능하다.
 
 - 백로그에서 드래그 앤 드롭을 통해서 에픽을 수정할 수 있다.
