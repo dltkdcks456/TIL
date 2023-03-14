@@ -1,0 +1,1 @@
+https://losskatsu.github.io/os-kernel/network-basic05/#41-%EC%8B%A0%EB%A2%B0%EC%84%B1
