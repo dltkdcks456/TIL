@@ -361,13 +361,24 @@ public class ReviewService {
 ### ❓ 궁금한 점
 
 - application.yml을 쓴 이유는?
+  - 가독성이 좋아서
+
 - 연관 관계 사실상 의미없는 것 같다. add라고 했지만 아무 반응 없음. 지워도 상관없음.
+  - user에도 review가 있어야 한다.
 
 - `JsonIgnore`는 user를 필드표출 시 제외시켜준다.
+  - 있어야한다. fetch = LAZY랑 있을 때
 
 - `Repository`는 하나의 데이터 형식인가? JPA에서 해당 Entity를 DTO를 거쳐서 받아온다?! 원하는 개수만큼 받아오려면 `Service`에서 작업 필요?
+  - Repository는 DB와 소통하는 친구인데 CRUD같은 것들이 필요
+
 - `RequiredArgsConstructor`한번 대충 설명 필요
+  - 싱글톤 패턴을 스프링에서 자동으로 해줌
+
 - `Swagger`는 언제 어떻게 사용?
+  - 로컬에서 들어갈 수 있음
+  - Swagger Config 활용
+
 
 
 
